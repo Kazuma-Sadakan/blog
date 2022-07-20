@@ -1,0 +1,29 @@
+.hero{
+    background-color: var(--dark-jungle-green);
+}
+
+@media screen and (max-width: 640px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    #navbar-wrapper{
+        padding: 0.5rem 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #navbar-wrapper{
+        padding: 1rem 0;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1536px) {
+    .hero{
+        max-width: 130rem;
+    }
+}

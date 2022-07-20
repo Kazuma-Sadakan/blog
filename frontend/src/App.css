@@ -1,0 +1,65 @@
+:root {
+    --dark-jungle-green: #01191Bff;
+    --outer-space-crayola: #1F3135ff;
+    --davys-grey: #495257ff;
+    --sweet-brown: #A33939ff;
+    --portland-orange: #F0542Eff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    /* 10px / 16px = 0.625 */
+    /* 1rem == 16px */
+    /* 100% == 16px */
+    font-size: 62.5%
+}
+
+body{
+    overflow-x: hidden;
+}
+
+li,
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    color: black;
+}
+
+button{
+    outline: none;
+    border: none;
+}
+
+@media screen and (min-width: 640px) {
+
+}
+
+@media screen and (min-width: 768px) {
+    .screen{
+        padding: 1rem 2rem;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1280px) {
+}
+
+@media screen and (min-width: 1536px) {
+    .screen{
+        max-width: 130rem;
+    }
+}
